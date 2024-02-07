@@ -5,7 +5,6 @@ This project explores modeling trade during the Roman Empire.  Using one of the 
 ## Dataset
 
 ### Overview
-*TODO*: Explain about the data you are using and where you got it from.
 This dataset was uploaded to github here (https://github.com/xrubio/ecologyStamps/blob/master/data/stamps.csv)
 The dataset was published to support the following article (https://www.sciencedirect.com/science/article/pii/S0305440318300463?via%3Dihub, Rubio-Camprillo et al., 2018)
 
