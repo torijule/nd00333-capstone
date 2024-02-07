@@ -45,19 +45,19 @@ The best algorithm was voting ensemble which derrived from MaxAbsScaler, Extreme
 I'm very surprised that each of these algorithms would change the directional value of coordinates, as many locations would be incorrect.  Given the landmass covered, I would expect that this error would be larger for the latitude values.  To improve this model in future, I would shift coordinates so that they were not centered around (0,0) and instead about a midpoint.  
 
 Here are screenshots of the Run Details widget-
-[!screenshot1](https://github.com/torijule/nd00333-capstone/blob/master/screenshots/AutoRunDetailsRunning.png)
-[!screenshot2](https://github.com/torijule/nd00333-capstone/blob/master/screenshots/AutoMLRunDetailsComplete.png)
+![screenshot1](https://github.com/torijule/nd00333-capstone/blob/master/screenshots/AutoRunDetailsRunning.png)
+![screenshot2](https://github.com/torijule/nd00333-capstone/blob/master/screenshots/AutoMLRunDetailsComplete.png)
 
 Model results-
 Best model:
-[!screenshot3](https://github.com/torijule/nd00333-capstone/blob/master/screenshots/Best%20AutoMLModel.png)
+![screenshot3](https://github.com/torijule/nd00333-capstone/blob/master/screenshots/Best%20AutoMLModel.png)
 
 Best model algorithm:
-[!screenshot4](https://github.com/torijule/nd00333-capstone/blob/master/screenshots/AutoMLDetails.png)
-[!screenshot5](https://github.com/torijule/nd00333-capstone/blob/master/screenshots/AutoMLEnsembleDetails.png)
+![screenshot4](https://github.com/torijule/nd00333-capstone/blob/master/screenshots/AutoMLDetails.png)
+![screenshot5](https://github.com/torijule/nd00333-capstone/blob/master/screenshots/AutoMLEnsembleDetails.png)
 
 Model parameters:
-[!screenshot6](https://github.com/torijule/nd00333-capstone/blob/master/screenshots/AutoMLConfigSettings.png)
+![screenshot6](https://github.com/torijule/nd00333-capstone/blob/master/screenshots/AutoMLConfigSettings.png)
 
 ## Hyperparameter Tuning
 I chose to use a RandomForestClassifier to predict the stamp codes because I thought a forest classification algorithm would nicely mimic the fabric of inherant variance with regards to socioeconomic factors and various actors which influence economic activity.  Random forest classifiers are often successful in modeling consumer behavior.  These models are also highly scalable, customizable, and very efficient.  
@@ -103,7 +103,7 @@ The model may be queried in the following format:
 }
 
 Please see the below example for leveraging the model with sample input:
-[!screenshot11](https://github.com/torijule/nd00333-capstone/blob/master/screenshots/EndpointSample.png)
+![screenshot11](https://github.com/torijule/nd00333-capstone/blob/master/screenshots/EndpointSample.png)
 
 
 ## Screen Recording
